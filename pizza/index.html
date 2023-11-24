@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title>Hot Pizza</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo"><img src="assets/images/logo.png" alt=""></div>
+                <nav class="nav">
+                    <a class="nav_link" href="#">Работа в Hot Pizza</a>
+                    <a class="nav_link" href="#">О нас</a>
+                    <a class="nav_link" href="#">Контакты</a>
+                    <a class="nav_link" href="#">Войти</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu">
+        <div class="container">
+            <div class="menu_inner">
+                <nav class="nav_menu">
+                    <a class="nav_menu_link" href="#">Пицца</a>
+                    <a class="nav_menu_link" href="#">Комбо</a>
+                    <a class="nav_menu_link" href="#">Закуски</a>
+                    <a class="nav_menu_link" href="#">Десерты</a>
+                    <a class="nav_menu_link" href="#">Напитки</a>
+                    <a class="nav_menu_link" id="last_elem" href="#">Корзина</a>
+                </nav>   
+            </div>   
+        </div>
+    </div>
+
+    <div class="offers">
+        <div class="container">
+            <div class="offers_naming">Горячие предложения</div>
+            <div class="product_wrapper">
+                <div class="product" id="modal_popup">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div>
+                </div>
+                <div class="product" id="modal_popup_sec">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div> 
+                </div>
+                <div class="product" id="modal_popup_third">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="my_modal">
+        <div class="modal_window">
+            <div class="closeModal" id="closeModal_btn"></div>
+            <div class="wrapper_full">
+                <div class="modal_image"><img src="assets/images/pizza_img.png" alt=""></div>
+                <div class="wrapper_description">
+                    <div class="modal_name">Пепперони</div>
+                    <div class="modal_description_first">средняя, традиционное тесто, 590г</div>
+                    <div class="modal_description_second">Пикантная пепперони, увеличенная порция
+                    моцареллы, томаты, фирменный томатный
+                    соус</div>
+                    <div class="wrapper_button">
+                        <div class="modal_small_size">Маленькая</div>
+                        <div class="modal_medium_size">Средняя</div> 
+                        <div class="modal_big_size">Большая</div>     
+                    </div>
+                    <div class="wrapper_button_second">
+                        <div class="dough_traditional">Традиционное</div>
+                        <div class="dough_thin">Тонкое</div>
+                    </div>
+                    <div class="topping_h">Добавить по вкусу</div>
+                    <div class="wrapper_topping">
+                        <div class="cheese_first">
+                            <img src="assets/images/cheddar.png" alt="">
+                            <div class="modal_topping_name">Чеддер</div>
+                            <div class="modal_topping_price">79₽</div>
+                        </div>
+                        <div class="cheese_second">
+                            <img src="assets/images/mozzarella.png" alt="">
+                            <div class="modal_topping_name">Сливочная моцарелла</div>
+                            <div class="modal_topping_price">79₽</div>
+                        </div>
+                        <div class="chorizo">
+                            <img src="assets/images/chorizo.png" alt="">
+                            <div class="modal_topping_name">Чоризо</div>
+                            <div class="modal_topping_price">79₽</div>
+                        </div>
+                    </div>
+                    <div class="wrapper_button_second_small"><button class="buy">Добавить в корзину за 519₽</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pizza">
+        <div class="container">
+            <div class="offers_naming">Горячие предложения</div>
+            <div class="product_wrapper">
+                <div class="product" id="modal_popup_fourth">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div>
+                </div>
+                <div class="product" id="modal_popup_fifth">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div> 
+                </div>
+                <div class="product" id="modal_popup_sixth">
+                    <img src="assets/images/pizza_img.png" class="product_pic" alt="">
+                    <div class="product_naming">Пепперони</div>
+                    <div class="product_ingredients">Состав: Пикантная пепперони, увеличенная порция
+                        моцареллы, томаты, фирменный томатный
+                        соус
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="product_info">
+                    <nav class="nav_extra">
+                        <a class="nav_link_extra" href="#" id="hot_pizza_first">Hot Pizza</a>
+                        <a class="nav_link_extra" href="#">О нас</a>
+                        <a class="nav_link_extra" href="#">Пицца</a>
+                        <a class="nav_link_extra" href="#">Комбо</a>
+                        <a class="nav_link_extra" href="#">Закуски</a>
+                        <a class="nav_link_extra" href="#">Десерты</a>
+                        <a class="nav_link_extra" href="#">Напитки</a>
+                    </nav>   
+                </div>
+                <div class="logo_pic"><img src="assets/images/logo_alt.png" alt=""></div>
+                <div class="common_info">
+                    <nav class="nav_extra">
+                        <a class="nav_link_extra_second" href="#" id="hot_pizza_second">Информация</a>
+                        <a class="nav_link_extra_second" href="#">Заказ и оплата</a>
+                        <a class="nav_link_extra_second" href="#">Франшиза</a>
+                        <a class="nav_link_extra_second" href="#">Инвестиции</a>
+                        <a class="nav_link_extra_second" href="#">Поставщикам</a>
+                        <a class="nav_link_extra_second" href="#">Состав блюд</a>                      
+                    </nav>   
+                </div>
+                <div class="logo_pic"><img src="assets/images/logo_alt.png" alt=""></div>
+                <div class="interest_info">
+                    <nav class="nav_extra">
+                        <a class="nav_link_extra" href="#" id="hot_pizza_third">Hot Pizza</a>
+                        <a class="nav_link_extra" href="#">О нас</a>
+                        <a class="nav_link_extra" href="#">Пицца</a>
+                        <a class="nav_link_extra" href="#">Комбо</a>
+                        <a class="nav_link_extra" href="#">Закуски</a>
+                        <a class="nav_link_extra" href="#">Десерты</a>
+                        <a class="nav_link_extra" href="#">Напитки</a>
+                    </nav>   
+                </div>               
+            </div>
+            <div class="extra_info">
+                <div class="extra_wrapper">
+                    <div class="trademark">Hot Pizza © 2023</div>
+                    <div class="extra_pic"><img src="assets/images/logo_extra.png" alt=""></div>
+
+                </div>
+                <div class="extra_info_text">
+                    © 2023 ООО “Hot Pizza Франчайзинг” 
+ОГРН 112875936158, ИНН 1341249995767001, Ростовская область, г. Новочеркасск
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
